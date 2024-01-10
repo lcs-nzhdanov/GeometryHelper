@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		82120D492B4F04C0008A9F41 /* GeometryHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82120D482B4F04C0008A9F41 /* GeometryHelperApp.swift */; };
-		82120D4B2B4F04C0008A9F41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82120D4A2B4F04C0008A9F41 /* ContentView.swift */; };
 		82120D4D2B4F04C3008A9F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82120D4C2B4F04C3008A9F41 /* Assets.xcassets */; };
 		82120D502B4F04C3008A9F41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82120D4F2B4F04C3008A9F41 /* Preview Assets.xcassets */; };
+		82120D5B2B4F06D2008A9F41 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82120D5A2B4F06D2008A9F41 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82120D452B4F04C0008A9F41 /* GeometryHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82120D482B4F04C0008A9F41 /* GeometryHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperApp.swift; sourceTree = "<group>"; };
-		82120D4A2B4F04C0008A9F41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82120D4C2B4F04C3008A9F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82120D4F2B4F04C3008A9F41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82120D5A2B4F06D2008A9F41 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				82120D482B4F04C0008A9F41 /* GeometryHelperApp.swift */,
-				82120D4A2B4F04C0008A9F41 /* ContentView.swift */,
+				82120D572B4F0587008A9F41 /* Model */,
+				82120D562B4F0570008A9F41 /* Views */,
 				82120D4C2B4F04C3008A9F41 /* Assets.xcassets */,
 				82120D4E2B4F04C3008A9F41 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				82120D4F2B4F04C3008A9F41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82120D562B4F0570008A9F41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82120D5A2B4F06D2008A9F41 /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82120D572B4F0587008A9F41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82120D4B2B4F04C0008A9F41 /* ContentView.swift in Sources */,
+				82120D5B2B4F06D2008A9F41 /* CircleView.swift in Sources */,
 				82120D492B4F04C0008A9F41 /* GeometryHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
