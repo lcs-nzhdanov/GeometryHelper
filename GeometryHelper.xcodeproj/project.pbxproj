@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8204439C2B50E5830016E444 /* PrismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204439B2B50E5830016E444 /* PrismView.swift */; };
+		8204439E2B50E7BA0016E444 /* Prism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204439D2B50E7BA0016E444 /* Prism.swift */; };
 		82120D492B4F04C0008A9F41 /* GeometryHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82120D482B4F04C0008A9F41 /* GeometryHelperApp.swift */; };
 		82120D4D2B4F04C3008A9F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82120D4C2B4F04C3008A9F41 /* Assets.xcassets */; };
 		82120D502B4F04C3008A9F41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82120D4F2B4F04C3008A9F41 /* Preview Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8204439B2B50E5830016E444 /* PrismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismView.swift; sourceTree = "<group>"; };
+		8204439D2B50E7BA0016E444 /* Prism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prism.swift; sourceTree = "<group>"; };
 		82120D452B4F04C0008A9F41 /* GeometryHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82120D482B4F04C0008A9F41 /* GeometryHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperApp.swift; sourceTree = "<group>"; };
 		82120D4C2B4F04C3008A9F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				82120D5A2B4F06D2008A9F41 /* CircleView.swift */,
+				8204439B2B50E5830016E444 /* PrismView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				82120D5C2B4F0AC9008A9F41 /* Circle.swift */,
+				8204439D2B50E7BA0016E444 /* Prism.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				82120D5B2B4F06D2008A9F41 /* CircleView.swift in Sources */,
+				8204439C2B50E5830016E444 /* PrismView.swift in Sources */,
 				82120D492B4F04C0008A9F41 /* GeometryHelperApp.swift in Sources */,
+				8204439E2B50E7BA0016E444 /* Prism.swift in Sources */,
 				82120D5D2B4F0AC9008A9F41 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
