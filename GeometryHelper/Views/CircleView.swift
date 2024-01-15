@@ -52,37 +52,5 @@ struct CircleView: View {
 
 
 #Preview {
-    //ContentView()
-    
-    TabView() {
-        
-        CircleView()
-            .tabItem {
-                Image(
-                    systemName: "circle"
-                )
-                Text(
-                    "Circle"
-                )
-            }
-            .tag(
-                1
-            )
-        
-        PrismView()
-            .tabItem {
-                Image(
-                    systemName: "cone"
-                )
-                Text(
-                    "Cone"
-                )
-            }
-            .tag(
-                2
-            )
-    }
-    .accentColor(
-        .blue
-    )
+    CircleView()
 }

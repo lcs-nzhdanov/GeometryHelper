@@ -15,6 +15,8 @@ struct PrismView: View {
     //MARK: Computed Properties
     var body: some View {
         VStack {
+            Spacer()
+            
             VStack {
                 Text("Side 1:")
                     .bold()
